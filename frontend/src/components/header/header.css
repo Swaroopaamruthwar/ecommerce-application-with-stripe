@@ -1,0 +1,9 @@
+.main-header {
+    padding: 0 4.8rem;
+    height: 10rem;
+    background-color: var(--bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}

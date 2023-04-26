@@ -1,0 +1,109 @@
+.container {
+    max-width: 120rem;
+}
+
+.grid {
+    gap: 3.2rem;
+}
+
+figure {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s linear;
+}
+
+figure::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+figure:hover::after {
+    width: 100%;
+}
+
+figure:hover img {
+    transform: scale(1.2);
+}
+
+img {
+    max-width: 90%;
+    margin-top: 1.5rem;
+    height: 20rem;
+    transition: all 0.2s linear;
+}
+
+/* Card */
+.card {
+    background-color: #F6F8FA;
+    border-radius: 1rem;
+}
+
+.card-data {
+    padding: 0 1rem;
+}
+
+.card-data-flex {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-data--price {
+    color: #8490ff;
+}
+
+h3 {
+    color: rgba(29, 29, 29, 0.8);
+    text-transform: capitalize;
+}
+
+.btn {
+    margin: 2rem auto;
+    background-color: rgb(0 0 0 / 0%);
+    border: 0.1rem solid rgb(98 84 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: rgb(98 84 243);
+}
+
+.btn:hover a {
+    color: #fff;
+}
+
+.btn a {
+    color: rgb(98 84 243);
+    font-size: 1.4rem;
+}
+
+/* Theme */
+:root {
+    --color-heading: rgb(24 24 29);
+    --color-text: rgba(29, 29, 29, .8);
+    --color-white: #fff;
+    --color-black: #212529;
+    --color-helper: #8490ff;
+    --color-bg: #F6F8FA;
+    --color-footer-bg: #0a1435;
+    --color-btn: rgb(98 84 243);
+    --color-border: rgba(98, 84, 243, 0.5);
+    --color-hr: #ffffff;
+    --color-gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+    --color-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    --color-shadow-support: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

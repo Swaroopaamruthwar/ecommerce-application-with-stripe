@@ -1,0 +1,10 @@
+.amount-toggle {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.amount-toggle button {
+    margin: 10px;
+    padding: 10px;
+}

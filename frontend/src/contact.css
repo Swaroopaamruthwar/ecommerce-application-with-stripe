@@ -1,0 +1,31 @@
+section {
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.container {
+    margin-top: 6rem;
+}
+
+.contact-form {
+    max-width: 50rem;
+    margin: auto;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contact-inputs input[type="submit"] {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.contact-inputs input[type="submit"]:hover {
+    background-color: #fff;
+    border: 1px solid rgb(98 84 243);
+    color: rgb(98 84 243);
+    transform: scale(0.9);
+}

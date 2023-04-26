@@ -1,0 +1,50 @@
+.wrapper .colors p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wrapper .btnStyle {
+    width: 2rem;
+    height: 2rem;
+    background-color: #000;
+    border-radius: 50%;
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.wrapper .btnStyle:hover {
+    opacity: 1;
+}
+
+.wrapper .active {
+    opacity: 1;
+}
+
+.wrapper .checkStyle {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.wrapper .amount-toggle {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.wrapper .amount-toggle button {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.wrapper .amount-toggle .amount-style {
+    font-size: 2.4rem;
+    color: #000;
+}
